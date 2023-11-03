@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+	<title></title>
+	<style>
+		.form-group {
+			margin-bottom: 5px;
+		}
+
+		.form-group label {
+			display: inline-block;
+			width: 190px;
+		}
+
+
+		.form-group input[type=checkbox] {
+			width: 30px;
+			padding: 10px;
+			border: 1px solid #ccc;
+
+		}
+	</style>
+</head>
+
+
+<body
+	style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif; background-image: url('https://drive.google.com/uc?export=view&id=1Zo97KwppzaMLayTD8maT_08nYwDCov_I');">
+	<form action="pesan.html" method="POST">
+		<div style="width: 93%;
+		border: 1px solid #703131;
+		background-color: #1d6e3f;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		margin-left: 4%;
+		height: 25px;
+		margin-top: 2%;
+		">
+			<div style="margin-left: 3%;">
+				<a href="#" style="text-decoration: none; color: white;  margin-right: 10%;">Home &nbsp;&nbsp;|</a>
+				<a style="text-decoration: none; color: white; margin-right: 10%;" href="#">Generate Link
+					&nbsp;&nbsp;|</a>
+				<a style="text-decoration: none; color: white; margin-right: 10%;" href="#">Transaction History
+					&nbsp;&nbsp;|</a>
+				<a style="text-decoration: none; color: white; margin-right: 10%;" href="#">Policy &nbsp;&nbsp;|</a>
+				<a style="text-decoration: none; color: white; margin-right: 10%;" href="#">Logout</a>
+			</div>
+		</div>
+		<div style="display: flex; margin-left: 6%; margin-top: 30px;">
+			<div style="margin-right: 5%;">
+				<img src="https://drive.google.com/uc?export=view&id=1Zpfic7IIflfw6gI7SPwGcfIkAnc9df0w" alt="macbook"
+					style="width: 230px; 
+            border-radius: 5%;
+            border: 2px solid black;
+            background-color: #3498db;"><br>
+				<button type="button" style="margin-top: 10px; margin-bottom: 90%; margin-left: 25%;">Upload
+					Picture</button>
+
+			</div>
+			<div style="display: flex; flex-direction: column;">
+				<div class="form-group">
+					<label for="title">Title :</label>
+					<input type="text" name="title" id="title" placeholder="Isi Title" style="width: 250px;
+				padding: 8px;
+				border: 1px solid rgb(75, 75, 75);">
+				</div>
+				<div class="form-group">
+					<label for="description">Description :</label>
+					<textarea name="description" id="description" cols="25" rows="5" style="width: 250px;
+				padding: 8px;
+				border: 1px solid rgb(75, 75, 75);"></textarea>
+				</div>
+				<div class="form-group">
+					<label for="accountNumber">Account Number :</label>
+					<input type="text" name="accountNumber" id="accountNumber" style="width: 250px;
+				padding: 8px;
+				border: 1px solid rgb(75, 75, 75);">
+				</div>
+				<div class="form-group">
+					<label for="bank">Bank :</label>
+					<select name="bank" id="bank" class="" style="width: 250px;
+				padding: 8px;
+				border: 1px solid rgb(75, 75, 75);">
+						<option value="">Choose Payment</option>
+						<option value="bca">BCA</option>
+						<option value="mandiri">Mandiri</option>
+						<option value="Syariah">Bank Syariah</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="title">Account Holder :</label>
+					<input type="text" name="title" id="title" style="width: 250px;
+				padding: 8px;
+				border: 1px solid rgb(75, 75, 75);">
+				</div>
+				<div class="form-group">
+					<label for="transaction">Transaction :</label>
+					<input type="number" name="transaction" id="transaction" max="4" min="1" style="width: 35px;
+				padding: 8px;
+				border: 1px solid rgb(75, 75, 75);"><br>
+					<p style="margin-left: 40%; font-size: smaller;">* if the transaction is for 3 person,
+						choose 3 from the
+						drop-down list </p>
+					<input type="checkbox" name="" id="" style="margin-left: 37%;">
+					<span style="font-size:small;">Send to Mobile Phone</span>
+					<input type="checkbox" name="" id="" style="margin-left: 37%;">
+					<span style="font-size:small;">Send to Email</span>
+				</div>
+				<div class="form-group">
+					<label for="accountNumber">Send to Mobile Phone :</label>
+					<input type="text" name="mobilephone" id="mobilephone" style="width: 250px;
+				padding: 8px;
+				border: 1px solid rgb(75, 75, 75);">
+				</div>
+				<div class="form-group">
+					<label for="accountNumber">Send to Email :</label>
+					<input type="text" name="email" id="email" style="width: 250px;
+				padding: 8px;
+				border: 1px solid rgb(75, 75, 75);">
+				</div>
+				<div><br>
+					<button type="submit" style=" background-color: #4CAF50; 
+			color: white;
+			padding: 8px 5px;
+			border: none;
+			 margin-left: 40%;">Generate Navbr Link</button>
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+
+</html>
